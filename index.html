@@ -10,16 +10,25 @@
 </head>
 
 <body>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.getElementById("myNavbar");
+            navbar.classList.toggle("responsive");
+        }
+    </script>
 
     <header>
-        <nav class="navbar">
-            <ul>
+        <div class="navbar" id="myNavbar">
+            <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+            <ul id="navLinks">
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#skills">Compétences</a></li>
                 <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+
     </header>
 
     <section id="home" class="home-section">
@@ -38,7 +47,7 @@
                 <a href="CV_Tantely_Mbolatiana.pdf" download class="cv-button">Télécharger mon CV</a>
             </div>
             <div class="about-photo">
-                <img src="Mbola.jpg" alt="Ma photo" />
+                <img src="image/Mbola.jpg" alt="Ma photo" />
             </div>
         </div>
     </section>
