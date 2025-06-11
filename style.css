@@ -8,6 +8,13 @@ body {
 }
 
 /* NAVBAR FIXE */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 15px;
+        background: linear-gradient(90deg, #4b6cb7, #182848);
+        padding: 10px 0;
+    }}
 .navbar {
     position: fixed;
     top: 0;
@@ -19,14 +26,14 @@ body {
     z-index: 1000;
 }
 
-.navbar ul {
+/* .navbar ul {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 0;
     padding: 0;
-}
+} */
 
 .navbar a {
     color: #e0e7ff;
