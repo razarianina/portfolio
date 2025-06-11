@@ -30,6 +30,7 @@ body {
     gap: 40px;
     margin: 0;
     padding: 0;
+    /* margin-left: 800px; */
 }
 
 .navbar a {
@@ -231,6 +232,7 @@ footer a:hover {
 
     .navbar .icon {
         display: block;
+        margin-left: 200px;
     }
 
     .navbar a {
